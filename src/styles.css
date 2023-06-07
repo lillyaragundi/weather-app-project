@@ -1,0 +1,108 @@
+body {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 350px;
+  font-family: "Roboto Mono", monospace;
+}
+h4 {
+  color: #c4d3df;
+  font-size: 15px;
+  padding-top: 20px;
+}
+
+h1 {
+  font-size: 55px;
+  padding-top: 10px;
+  color: #c4d3df;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h2,
+h3 {
+  padding: 10px;
+  color: #c4d3df;
+}
+
+h3 {
+  font-size: 15px;
+}
+
+.temp-metric {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.fahrenheit:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.celsius:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.container {
+  border-style: double;
+  border-radius: 5px;
+  margin: 2px;
+  background: aliceblue;
+}
+
+.search {
+  padding-top: 20px;
+}
+
+.search-bar {
+  width: 250px;
+  display: block;
+  margin: 0 auto;
+}
+
+.current-button {
+  margin-top: 20px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  background-color: #727c85;
+  color: white;
+  transition: all 100ms ease-in-out;
+}
+
+.current-button:hover {
+  background-color: #c4d3df;
+  pointer: cursor;
+}
+
+.cloudy-icon {
+  display: block;
+  margin: 0 auto;
+  font-size: 50px;
+  opacity: 50%;
+}
+
+.forecast {
+  padding: 10px;
+  margin: 2px;
+  border-style: ridge;
+  border-radius: 5px;
+  background-color: #c4d3df;
+}
+
+.day-1,
+.day-2,
+.day-3,
+.day-4,
+.day-5 {
+  color: #727c85;
+  padding-left: 10px;
+}
+
+.weather-icon {
+  text-align: center;
+}
